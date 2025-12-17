@@ -9,7 +9,8 @@ content: '[RNG_QUEUE v1]\n' +
   'rule=ABSOLUTE LAW: use in order...\n' +
   '[/RNG_QUEUE]\n' +
   '\n' +
-  'Your actual message here...'```
+  'Your actual message here...
+  ````
 
 This makes it so that the AI has an "RNG bank" always available that it will use for its rolls, ensuring real randomness. This bank refreshes every input/output.
 
@@ -122,7 +123,8 @@ What do you do?
 
 This locks the scene's difficulty, so you can't cheat by fitting the DC to the RNG queue in the next output. If the user chooses a creative alternative, scale the new DC relative to these anchors."
 
----```
+---
+```
 
 **How to install**: 
 1. Download the repository (Code -> Download ZIP).
