@@ -16,7 +16,7 @@ This makes it so that the AI has an "RNG bank" always available that it will use
 
 This is an alternative to using function calls. One advantage it has is seamlessness. You don't need to pay for multiple outputs because it all happens within one output.
 
-The system works best in CYOA mode, where the model suggests potential courses of action with the DC (difficulty check) values attached. This way, the AI commits to the DC before it gains knowledge of the random number that will be used for that check. If you'd rather just write all your actions yourself, then delete the "what do you do?" section from the system prompt. This will make the randomness a little less "robust," but it's probably not a big deal.
+One problem that remains is that the AI can still "cheat" by fitting the DCs of skillchecks to the RNG numbers, but I'm not sure how big of a deal it is.
 
 Here is the system prompt I use: 
 ```SEAMLESS MODE (NON-NEGOTIABLE)
