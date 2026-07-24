@@ -1,3 +1,5 @@
+# NOTE: This is old, and a superior version is now embedded into Multihog D&D Framework (another repo of mine.)
+
 This is a system that rolls random numbers and invisibly prepends them to the input (the message you send) in the following manner: 
 
 ```javascript
